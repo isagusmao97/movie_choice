@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:movie_choice/app_colors.dart';
+import 'package:movie_choice/recursos/telas/criar_sala.dart';
 import 'package:movie_choice/recursos/telas/segunda_pagina.dart';
 
 class Home extends StatefulWidget {
@@ -8,6 +9,7 @@ class Home extends StatefulWidget {
 
   @override
 
+  // ignore: library_private_types_in_public_api
   _HomeState createState() => _HomeState();
 }
 
@@ -29,10 +31,10 @@ class _HomeState extends State<Home> {
               children: [
                 // Logo no topo
                 SizedBox(
-                  width: 60,
-                  height: 60,
+                  width: 80,
+                  height: 80,
                   child: Image.asset(
-                    'lib/images/cinema.png', // caminho da sua logo
+                    'lib/recursos/images/cinema.png', // caminho da sua logo
                     fit: BoxFit.contain,
                   ),
                 ),
@@ -121,7 +123,13 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                     onPressed: () {
-                      // Aqui você pode colocar a navegação para criar sala
+                      // Aqui a navegação para criar sala
+                       Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const CriarSala(),
+                      ),
+                    );
                     },
                     child: const Text(
                       'Criar uma Sala',
