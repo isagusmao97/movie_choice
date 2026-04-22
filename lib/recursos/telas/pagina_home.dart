@@ -31,10 +31,10 @@ class _HomeState extends State<Home> {
               children: [
                 // Logo no topo
                 SizedBox(
-                  width: 80,
-                  height: 80,
+                  width: 220,
+                  height: 220,
                   child: Image.asset(
-                    'lib/recursos/images/cinema.png', // caminho da sua logo
+                    'lib/recursos/images/logo.png', // caminho da sua logo
                     fit: BoxFit.contain,
                   ),
                 ),
