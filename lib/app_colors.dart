@@ -4,7 +4,8 @@ class AppColors {
   static const Color primary = Color(0xFF26C6DA);    // Azul
   static const Color secondary = Color(0xFF5E35B1);  // Roxo 
   static const Color accent = Color(0xFFEC407A);     // Rosa 
-  static const Color background = Color(0xFFEDEBDD); // Creme claro de fundo
+  static const Color background1 = Color(0xFFEDEBDD); // Creme claro de fundo
+  static const Color background2 = Color(0xFF0A0A0F); 
   static const Color textPrimary = Color(0xFF0E0204); // Preto para textos
   static const Color textSecondary = Color(0xFF404040); // Cinza para textos secundários
   static const Color textLight = Color(0xFFEDEBDD); // Creme para textos claros

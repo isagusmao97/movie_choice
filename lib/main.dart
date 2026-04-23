@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:movie_choice/app_colors.dart';
-import 'package:movie_choice/recursos/telas/pagina_home.dart';
+//import 'package:movie_choice/recursos/telas/cadastro.dart';
+import 'package:movie_choice/recursos/telas/login.dart';
+//import 'package:movie_choice/recursos/telas/pagina_home.dart';
 
 void main() {
   runApp(MovieChoiceApp());
@@ -17,7 +19,7 @@ class MovieChoiceApp extends StatelessWidget {
         primaryColor: AppColors.primary,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Home(), // Página inicial
+      home: Login(), // Página inicial
       debugShowCheckedModeBanner: false,
     );
   }
