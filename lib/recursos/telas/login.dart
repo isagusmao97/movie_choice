@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_choice/app_colors.dart';
-import 'package:movie_choice/recursos/telas/cadastro.dart';
+import 'package:movie_choice/recursos/telas/criar_sala.dart';
 import 'package:movie_choice/recursos/telas/pagina_home.dart';
 
 class Login extends StatelessWidget {
@@ -45,7 +45,7 @@ class Login extends StatelessWidget {
                 // Campo de código da sala
                 TextField(
                   decoration: InputDecoration(
-                    labelText: 'Sua senha aqui',
+                    labelText: 'Seu código aqui',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -96,7 +96,7 @@ class Login extends StatelessWidget {
 
                 // Texto explicativo
                 const Text(
-                  'Crie uma conta e convide a sua turma!',
+                  'Crie uma sala e convide a sua turma!',
                   style: TextStyle(fontSize: 16),
                   textAlign: TextAlign.center,
                 ),
@@ -118,12 +118,12 @@ class Login extends StatelessWidget {
                        Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const Cadastro(),
+                        builder: (context) => const CriarSala(),
                       ),
                     );
                     },
                     child: const Text(
-                      'Criar uma Conta',
+                      'Criar uma Sala',
                       style: TextStyle(fontSize: 18, color: AppColors.textLight),
                     ),
                   ),
