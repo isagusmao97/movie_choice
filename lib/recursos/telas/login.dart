@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movie_choice/app_colors.dart';
 import 'package:movie_choice/recursos/telas/criar_sala.dart';
-import 'package:movie_choice/recursos/telas/pagina_home.dart';
+//import 'package:movie_choice/recursos/telas/pagina_home.dart';
 import 'package:movie_choice/recursos/telas/sala.dart';
 
 class Login extends StatelessWidget {
@@ -59,7 +59,7 @@ class Login extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: AppColors.teal,
+                      backgroundColor: AppColors.accent,
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
@@ -108,7 +108,7 @@ class Login extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: AppColors.teal,
+                      backgroundColor: AppColors.accent,
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
