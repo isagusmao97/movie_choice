@@ -9,9 +9,9 @@ class Sala extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Criar Sala')),
+      appBar: AppBar(title: const Text('Bem-vindo a Sala')),
       body: const Center(
-        child: Text('Aqui você pode criar uma nova sala!'),
+        child: Text('Aqui você pode vai encontrar a sua sala!'),
       ),
     );
   }

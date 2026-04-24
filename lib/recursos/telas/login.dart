@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:movie_choice/app_colors.dart';
 import 'package:movie_choice/recursos/telas/criar_sala.dart';
 import 'package:movie_choice/recursos/telas/pagina_home.dart';
+import 'package:movie_choice/recursos/telas/sala.dart';
 
 class Login extends StatelessWidget {
   const Login({super.key});
@@ -68,12 +69,12 @@ class Login extends StatelessWidget {
                       Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const Home(),
+                        builder: (context) => const Sala(),
                       ),
                     );
                     },
                     child: const Text(
-                      'Login',
+                      'Entrar na Sala',
                       style: TextStyle(fontSize: 18, color: AppColors.textLight),
                       
                     ),
